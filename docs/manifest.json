@@ -1,6 +1,6 @@
 {
-    "name": "torackball",
-    "short_name": "torackball",
+    "name": "trackball",
+    "short_name": "trackball",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
