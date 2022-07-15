@@ -7,7 +7,8 @@
         {
             "name": "trackball",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            //"preLaunchTask": "Copy",
         },
         {
             "name": "trackball (profile mode)",
