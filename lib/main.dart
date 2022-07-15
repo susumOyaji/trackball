@@ -12,7 +12,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  static const String _title = 'Track Boll Check(Web) Ver0.0.0 ';
+  static const String _title = 'Track Boll Check(Web) Ver0.0 ';
 
   @override
   Widget build(BuildContext context) {
