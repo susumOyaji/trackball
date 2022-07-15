@@ -135,7 +135,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             ),
             ElevatedButton(
               //heroTag: "Phase/Pluse",
-              onPressed: () => _controller.clear(),
+              onPressed: () => _controller.close(),
               child: const Text('F4  Quit(End)',
                   style: TextStyle(
                     color: Colors.black,
