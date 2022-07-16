@@ -1,6 +1,6 @@
 {
-    "name": "trackball",
-    "short_name": "trackball",
+    "name": "github_page",
+    "short_name": "github_page",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
