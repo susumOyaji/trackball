@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 //import 'package:flutter/rendering.dart';
 import 'PaintHistory.dart';
 //import 'package:flutter/services.dart';
-import 'dart:html';
 
 class Signer extends StatefulWidget {
   final SignController paintController;
@@ -129,9 +128,5 @@ class SignController extends ChangeNotifier {
     _paintHistory.clear();
     //2_paintHistory.addPaint(Offset(280, 639));
     notifyListeners();
-  }
-
-  void close() {
-    window.close();
   }
 }

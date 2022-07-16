@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 //import 'package:torackball/src/main_org.dart';
 import 'Painter.dart';
 import 'dart:html';
+import 'dart:io';
 //import 'FocusableActionDetector.dart';
 
 void main() {
@@ -12,7 +13,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  static const String _title = 'Track Boll Check(Web) Ver0.0 ';
+  static const String _title = 'Track Ball Check(Web) Ver0.0 ';
 
   @override
   Widget build(BuildContext context) {
@@ -135,7 +136,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
             ),
             ElevatedButton(
               //heroTag: "Phase/Pluse",
-              onPressed: () => _controller.close(),
+              onPressed: () => Navigator.of(context).pop(),
               child: const Text('F4  Quit(End)',
                   style: TextStyle(
                     color: Colors.black,
