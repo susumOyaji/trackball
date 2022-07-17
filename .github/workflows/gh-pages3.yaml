@@ -3,7 +3,7 @@ description: 'Automates the build and deployment of your Flutter web app on Gith
 author: 'erickzanardo'
 
 
-n:
+on:
   push:
     branches:
       - master  # Set a branch name to trigger deployment
